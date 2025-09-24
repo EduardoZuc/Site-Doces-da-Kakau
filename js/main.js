@@ -80,7 +80,7 @@
     ----------------------------*/
     $(".categories__slider").owlCarousel({
         loop: true,
-        margin: 22,
+        margin: 0,
         items: 5,
         dots: false,
         nav: true,
@@ -101,60 +101,7 @@
             },
             992: {
                 items: 4
-            },
-            1200: {
-                items: 5
             }
-        }
-    });
-
-    /*-----------------------------
-        Testimonial Slider
-    -------------------------------*/
-    $(".testimonial__slider").owlCarousel({
-        loop: true,
-        margin: 0,
-        items: 2,
-        dots: true,
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            }
-        }
-    });
-
-    /*---------------------------------
-        Related Products Slider
-    ----------------------------------*/
-    $(".related__products__slider").owlCarousel({
-        loop: true,
-        margin: 0,
-        items: 4,
-        dots: false,
-        nav: true,
-        navText: ["<span class='arrow_carrot-left'><span/>", "<span class='arrow_carrot-right'><span/>"],
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 2
-            },
-            768: {
-                items: 3
-            },
-            992: {
-                items: 4
-            },
         }
     });
 
@@ -162,14 +109,6 @@
         Select
     ----------------------------*/
     $("select").niceSelect();
-
-    /*------------------
-		Magnific
-	--------------------*/
-	$('.video-popup').magnificPopup({
-    		type: 'iframe'
-	});
-
 
 
     /*------------------
