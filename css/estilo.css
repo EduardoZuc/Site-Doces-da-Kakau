@@ -1996,6 +1996,14 @@ ol {
     padding-top: 10px;
   }
 
+  .wishlist__cart__table table tbody tr td.cart__btn .primary-btn {
+    padding: 14px 20px;
+  }
+
+  .blog__details__recipe {
+    padding: 25px 40px 20px;
+  }
+}
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header__menu ul li a {
@@ -2045,6 +2053,13 @@ ol {
   .class__form {
     height: auto;
     margin-bottom: 50px;
+  }
+
+  .class__video {
+    width: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
   }
 
   .testimonial__item .rating {
@@ -2110,6 +2125,43 @@ ol {
 
   .cart__discount {
     padding-top: 40px;
+  }
+
+  .class__sidebar {
+    margin-top: 40px;
+  }
+
+  .blog__sidebar {
+    padding-top: 50px;
+  }
+
+  .blog__details__share {
+    width: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 40px;
+  }
+
+  .blog__details__share a {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 6px;
+  }
+  .blog__details__share a:last-child {
+    margin-right: 0;
+  }
+
+  .blog__details__ingredients {
+    margin-bottom: 25px;
+  }
+
+  .contact__text {
+    margin-bottom: 40px;
+  }
+
+  .blog__details__ingredients__pic img {
+    min-width: 100%;
   }
 }
 /* Wide Mobile = 480px */
@@ -2216,6 +2268,130 @@ ol {
     display: block !important;
   }
 
+  .offcanvas__option ul li {
+    font-size: 14px;
+    color: #111111;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+    padding: 2px 0;
+    cursor: pointer;
+  }
+  .offcanvas__option ul li a {
+    color: #111111;
+  }
+  .offcanvas__option ul li:hover ul {
+    top: 24px;
+    opacity: 1;
+    visibility: visible;
+    background: white;
+  }
+  .offcanvas__option ul li ul {
+    background: white;
+    display: inline-block;
+    padding: 2px 0;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 3;
+    -webkit-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+  }
+  .offcanvas__option ul li ul li {
+    list-style: none;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 2px 15px;
+    cursor: pointer;
+  }
+  .offcanvas__option ul li ul li:after {
+    display: none;
+  }
+  .offcanvas__option ul li:after {
+    position: absolute;
+    right: -19px;
+    top: 1px;
+    content: "|";
+    color: #bbbbbb;
+  }
+  .offcanvas__option ul li:last-child {
+    margin-right: 0;
+  }
+  .offcanvas__option ul li:last-child:after {
+    display: none;
+  }
+  .offcanvas__option ul li span {
+    color: #888888;
+  }
+
+  .offcanvas__logo {
+    margin-bottom: 40px;
+  }
+  .offcanvas__logo a {
+    display: inline-block;
+  }
+
+  .offcanvas__cart {
+    margin-bottom: 30px;
+  }
+
+  .offcanvas__cart__links {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .offcanvas__cart__links a {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+  }
+  .offcanvas__cart__links a:after {
+    position: absolute;
+    right: -18px;
+    top: 0px;
+    content: "|";
+    font-size: 16px;
+    color: #bababa;
+  }
+  .offcanvas__cart__links a:last-child {
+    margin-right: 0;
+  }
+  .offcanvas__cart__links a:last-child:after {
+    display: none;
+  }
+
+  .offcanvas__cart__item {
+    display: inline-block;
+    margin-top: 17px;
+  }
+  .offcanvas__cart__item a {
+    position: relative;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  .offcanvas__cart__item a span {
+    font-size: 15px;
+    color: #111111;
+    font-weight: 600;
+    position: absolute;
+    left: 7px;
+    top: 4px;
+  }
+  .offcanvas__cart__item .cart__price {
+    display: inline-block;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 4px;
+  }
+  .offcanvas__cart__item .cart__price span {
+    color: #111111;
+  }
+
   .header__top__left {
     display: none;
   }
@@ -2259,6 +2435,13 @@ ol {
   .class__form {
     height: auto;
     margin-bottom: 50px;
+  }
+
+  .class__video {
+    width: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
   }
 
   .instagram__text {
@@ -2555,6 +2738,17 @@ ol {
     margin: 0 auto;
   }
 
+  .testimonial__item .rating {
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-bottom: 20px;
+  }
+
+  .testimonial__item {
+    padding: 30px 25px 25px 30px;
+  }
+
   .shop__option__search form .nice-select {
     padding-left: 8px;
   }
@@ -2574,6 +2768,47 @@ ol {
 
   .cart__total {
     padding: 30px 20px 30px;
+  }
+
+  .blog__item__pic .blog__pic__inner ul {
+    display: block;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .blog__details__author__pic {
+    float: none;
+    margin-right: 0;
+  }
+
+  .blog__details__author__text {
+    padding-top: 25px;
+  }
+
+  .blog__details__recipe__item {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .blog__details__comment__item__pic {
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  .blog__details__comment .primary-btn {
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-bottom: 30px;
+  }
+
+  .blog__details__comment__item__text .blog__details__comment__btns {
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 15px;
   }
 
   .product__details__big__img img {
